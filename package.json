@@ -1,0 +1,29 @@
+{
+   "name": "dockerpushsample",
+   "version": "0.0.1",
+   "license": "MIT",
+   "author": {
+     "name": "Sondre Bjellås",
+     "url": "https://www.sondreb.com/"
+   },
+   "description": "Sample showing how to build and push a docker image to Docker Hub using latest official GitHub Actions from Docker.",
+   "repository": {
+     "type": "git",
+     "url": "git+https://github.com/sondreb/docker-push-sample.git"
+   },
+   "bugs": {
+     "url": "https://github.com/sondreb/docker-push-sample/issues"
+   },
+   "homepage": "https://github.com/sondreb/docker-push-sample#readme",
+   "main": "main.js",
+   "scripts": {
+     "version": "node -p \"require('./package.json').version\"",
+     "changelog": "conventional-changelog -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md"
+   },
+   "private": true,
+   "dependencies": {
+     "conventional-changelog-cli": "^2.0.31"
+   },
+   "devDependencies": {}
+ }
+ 
