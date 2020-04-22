@@ -21,7 +21,7 @@ jobs:
       with:
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
-        repository: sondreb/dockerpushsample
+        repository: lvyingde51/test
         tags: latest,${{env.VERSION}}
         tag_with_ref: false
         tag_with_sha: false
